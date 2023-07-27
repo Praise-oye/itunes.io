@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div
+  className="App"
+>
+  <link
+    crossorigin="anonymous"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    rel="stylesheet"
+  />
+  <div>
+    <div>
+      <div
+        className="logo"
+      >
+        <img
+          alt="itunes"
+          className="img"
+          src="logo.png"
+        />
+        <h1>
+          Itunes Store
+        </h1>
+      </div>
+      <div
+        className="container"
+      >
+        <div
+          className="header"
+        >
+          <form
+            className=""
+            onChange={[Function]}
+          >
+            <input
+              className="mr-sm-2 form-control"
+              placeholder="Search..."
+              type="text"
+            />
+          </form>
+          <div
+            className="dropdown"
+          >
+            <button
+              aria-expanded={false}
+              className="dropdown-toggle btn btn-btn btn-info"
+              disabled={false}
+              id="dropdown-basic-button"
+              onClick={[Function]}
+              type="button"
+            >
+              Categories
+            </button>
+          </div>
+          <div
+            className="searchButton"
+          />
+          <div
+            className="helpModal"
+          >
+            <button
+              className="btn btn-btn btn-info"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Help
+            </button>
+          </div>
+        </div>
+        <div
+          className="cardsContainer container"
+        >
+          <div
+            className="noResults"
+          >
+            <h1
+              id="noResults"
+            >
+              Itunes Web Store Search
+            </h1>
+          </div>
+        </div>
+        <div
+          className="favouritesContainer container"
+        >
+          <div
+            className="noFavourites"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

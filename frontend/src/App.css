@@ -1,0 +1,145 @@
+.displayItems {
+  /* Styling for the container displaying the item */
+  border-radius: 5px;
+  height: 450px;
+  text-align: center;
+}
+
+.customCard {
+  /* Custom styling for the Card component */
+  width: 100%;
+  height: 100%;
+}
+
+.cardImg {
+  /* Styling for the item image */
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.addToFavorites {
+  /* Styling for the container of the "add to favorites" icon */
+  position: absolute;
+  bottom: 370px;
+  left: 80px;
+  margin: auto;
+  width: 100%;
+  height: 80px;
+  color: red;
+  text-align: center;
+  z-index: 1;
+}
+
+.starIcon {
+  /* Styling for the star icon */
+  vertical-align: middle;
+}
+
+.favouriteListContainer {
+  /* Styling for the container of the favorite list */
+  padding: 5px !important;
+}
+
+.customTable {
+  /* Custom styling for the Table component */
+  padding: 0% !important;
+  margin: 0% !important;
+}
+
+.removeButton {
+  /* Styling for the remove button */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: red;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 40%;
+  padding-top: 50px;
+}
+
+.App {
+  text-align: center;
+}
+
+.table {
+  padding: 0% !important;
+  margin: 0% !important;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 150px;
+  align-items: center;
+}
+
+.card {
+  border-radius: 5px;
+  height: 450px;
+  text-align: center;
+}
+
+.star {
+  position: absolute;
+  bottom: 370px;
+  left: 80px;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  color: gold;
+  text-align: center;
+  z-index: 1;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 25px;
+  position: relative;
+  top: 0;
+  left: 5%;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+}
+
+.favouritesContainer {
+  padding-bottom: 100px;
+}
+
+.tableContainer {
+  padding: 5px !important;
+}
+
+tr,
+td {
+  padding: 5px !important;
+  width: 100px;
+  height: auto;
+}
+
+#noResults {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 120vh;
+  font-size: 50px;
+  font-weight: lighter;
+}
